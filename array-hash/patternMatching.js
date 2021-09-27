@@ -24,3 +24,4 @@ function encode(str) {
   }
   return res;
 }
+console.log(findMatchedWords(["foo", "f", "fdd", "rgg", "ffg"], 5, "foo"));
