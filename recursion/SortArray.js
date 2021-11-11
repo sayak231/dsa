@@ -25,7 +25,7 @@ function recursiveInsert(temp) {
   }
   let val = arr[arr.length - 1];
   arr.pop();
-  insert(temp);
+  recursiveInsert(temp);
   arr.push(val);
   return;
 }
